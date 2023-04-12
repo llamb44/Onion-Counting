@@ -93,7 +93,7 @@ def onionCounting():
 
 
 
-    with open(r"C:\Users\Sweet\OneDrive\Documents\College Stuff\Actual Class Things\spring2023\Bio\onions.text", "w")  as outFile:
+    with open(r"C:\Users\Sweet\OneDrive\Documents\College Stuff\Actual Class Things\spring2023\Bio\onions.txt", "w")  as outFile:
         outFile.write("Onions:\t"+str(onionRecipes)+"\n")
         outFile.write("Yellow Onions:\t"+str(yellowOnionRecipes) +"\n")
         outFile.write("Powdered Onions:\t"+ str(powderOnionRecipes) +"\n")
